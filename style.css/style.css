@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(20, 94, 13, 0.678);
+	font-family: Arial;
+}
+.center {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(84, 201, 0);
+	font-weight: bolder;
+}
+
+.start {
+	cursor: pointer;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background-color: rgba(243, 228, 15, 0.349);
+	/* background-color: rgba(17, 202, 187, 0.384); */
+	letter-spacing: .2em;
+	padding: 15px 0px;
+	width: 60%;
+	border: none;
+	border-radius: 90% 10% 10% 7% / 75% 10% 10% 26%;
+}
+
+.score-display {
+	font-size: 1em;
+}
+
+.score {
+	font-size: 1.7em;
+	color: rgb(189, 38, 0);
+	font-weight: bolder;
+}
+
+.grid {
+	margin-top: 1.5em;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+	background: linear-gradient(to bottom, #ffffff, rgba(243, 228, 15, 0.13));
+	border-radius: 10px;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.snake {
+	background-color: rgb(42, 85, 12);
+}
+
+.apple {
+	background: linear-gradient(to bottom, rgb(221, 109, 133), rgb(248, 18, 68));
+}
+
+.grid .apple {
+	border-radius: 49% 51% 42% 53% / 44% 41% 58% 65%;
+}
